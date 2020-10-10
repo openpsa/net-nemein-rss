@@ -1,0 +1,139 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE fi
+
+---STRING %s items
+%s uutista tuotu
+---STRINGEND
+
+---STRING add new feed
+Lisää uusi RSS-lähde
+---STRINGEND
+
+---STRING approve new items automatically
+Hyväksy uudet uutiset automaattisesti
+---STRINGEND
+
+---STRING default author for items
+Uutisten oletuskirjoittaja
+---STRINGEND
+
+---STRING edit feed %s
+Muokkaa uutissyötettä "%s"
+---STRINGEND
+
+---STRING feed title
+Lähteen otsikko
+---STRINGEND
+
+---STRING feed url
+Lähteen URL-osoite
+---STRINGEND
+
+---STRING fetch feed %s
+Päivitetty uutissyöte "%s"
+---STRINGEND
+
+---STRING import opml subscriptions
+Lisää lähteitä OPML-muodossa
+---STRINGEND
+
+---STRING %s was imported from %s
+"%s" tuotiin syötteestä %s
+---STRINGEND
+
+---STRING keep removed items
+Säilytä syötteestä poistetut uutiset paikallisesti
+---STRINGEND
+
+---STRING latest fetch %s
+Viimeisin sisäänluku oli %s
+---STRINGEND
+
+---STRING latest item from %s
+Viimeisin uutinen on päivätty %s
+---STRINGEND
+
+---STRING local item
+Uutisen paikallinen kopio
+---STRINGEND
+
+---STRING manage feeds
+Hallinnoi uutissyötteitä
+---STRINGEND
+
+---STRING manage feeds of %s
+Hallinnoi kansion "%s" uutissyötteitä
+---STRINGEND
+
+---STRING n/a
+E/S
+---STRINGEND
+
+---STRING net.nemein.rss
+RSS- ja Atom-lukija
+---STRINGEND
+
+---STRING no items found in feed
+Syötteestä ei löytynyt uutisia.
+---STRINGEND
+
+---STRING opml file
+OPML-tiedosto
+---STRINGEND
+
+---STRING refresh all feeds
+Päivitä kaikki syötteet
+---STRINGEND
+
+---STRING refresh feed
+Päivitä syöte
+---STRINGEND
+
+---STRING remote item
+Uutinen syötteessä
+---STRINGEND
+
+---STRING rss output settings
+RSS-tulosteen asetukset
+---STRINGEND
+
+---STRING subscribe feeds
+Tilaa uusia uutissyötteitä
+---STRINGEND
+
+---STRING subscribe feeds for %s
+Tilaa uutissyötteitä kansioon "%s"
+---STRINGEND
+
+---STRING untitled
+Nimetön
+---STRINGEND
+
+---STRING rss_title
+RSS-syötteen otsikko
+---STRINGEND
+
+---STRING rss_description
+Kuvaus
+---STRINGEND
+
+---STRING rss_webmaster
+Ylläpitäjän sähköpostiosoite
+---STRINGEND
+
+---STRING rss_language
+Kieli
+---STRINGEND
+
+---STRING rss_count
+Näytä näin monta uutista/tapahtumaa RSS-syötteessä
+---STRINGEND
+
+---STRING rss_description
+Kuvaus
+---STRINGEND
+
+---STRING rss_enable
+Salli RSS-syöte
+---STRINGEND

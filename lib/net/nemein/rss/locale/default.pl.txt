@@ -1,0 +1,135 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE pl
+
+---STRING %s items
+Elementów zaimportowanych: %s
+---STRINGEND
+
+---STRING add new feed
+Dodaj RSS
+---STRINGEND
+
+---STRING approve new items automatically
+Automatycznie zatwierdzaj nowe elementy
+---STRINGEND
+
+---STRING default author for items
+Domyślny autor
+---STRINGEND
+
+---STRING edit feed %s
+Edytuj wsad "%s"
+---STRINGEND
+
+---STRING feed title
+Tytuł
+---STRINGEND
+
+---STRING feed url
+URL
+---STRINGEND
+
+---STRING fetch feed %s
+Pobrano wsad "%s"
+---STRINGEND
+
+---STRING import opml subscriptions
+Importuj w formacie OPML
+---STRINGEND
+
+---STRING keep removed items
+Zachowaj lokalnekopie usuniętych elementów wsadu
+---STRINGEND
+
+---STRING latest fetch %s
+Ostatnie pobranie: %s
+---STRINGEND
+
+---STRING latest item from %s
+Ostatni element: %s
+---STRINGEND
+
+---STRING local item
+Lokalna kopia elementu
+---STRINGEND
+
+---STRING manage feeds
+Zarządzaj wsadami
+---STRINGEND
+
+---STRING manage feeds of %s
+Zarządzaj wsadami w folderze "%s"
+---STRINGEND
+
+---STRING n/a
+N/A
+---STRINGEND
+
+---STRING net.nemein.rss
+Agregator RSS
+---STRINGEND
+
+---STRING no items found in feed
+Brak elementów
+---STRINGEND
+
+---STRING opml file
+Plik OPML
+---STRINGEND
+
+---STRING refresh all feeds
+Odśwież wszystkie wsady
+---STRINGEND
+
+---STRING refresh feed
+Odśwież wsad
+---STRINGEND
+
+---STRING remote item
+Element wsadu
+---STRINGEND
+
+---STRING rss output settings
+Ustawienia wyświetlania RSS
+---STRINGEND
+
+---STRING subscribe feeds
+Dodaj wsady
+---STRINGEND
+
+---STRING subscribe feeds for %s
+Dodaj wsady do folderu "%s"
+---STRINGEND
+
+---STRING untitled
+Bez tytułu
+---STRINGEND
+
+---STRING %s was imported from %s
+"%s" został zaimportowany z wsadu %s
+---STRINGEND
+
+---STRING rss_count
+Wyświetl tyle elementów w rss.xml
+---STRINGEND
+
+---STRING rss_description
+Opis
+---STRINGEND
+
+---STRING rss_enable
+Włącz eksport ESS (aktywuje link rss.xml oraz rss/$liczba.xml)
+---STRINGEND
+
+---STRING rss_language
+Język wsadu
+---STRINGEND
+
+---STRING rss_title
+Tytuł wsadu (puste = tytuł folderu)
+---STRINGEND
+
+---STRING rss_webmaster
+Adres webmastera
+---STRINGEND

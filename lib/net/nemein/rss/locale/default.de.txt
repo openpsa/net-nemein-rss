@@ -1,0 +1,132 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE de
+
+---STRING %s items
+%s Einträge importiert
+---STRINGEND
+
+---STRING add new feed
+Neuen Feed hinzufügen
+---STRINGEND
+
+---STRING approve new items automatically
+Neue Einträge automatisch freigeben
+---STRINGEND
+
+---STRING default author for items
+Standard-Verfasser für Einträge
+---STRINGEND
+
+---STRING edit feed %s
+Feed "%s" bearbeiten
+---STRINGEND
+
+---STRING feed title
+Feed-Titel
+---STRINGEND
+
+---STRING feed url
+Feed-URL
+---STRINGEND
+
+---STRING fetch feed %s
+Feed "%s" wurde abgerufen
+---STRINGEND
+
+---STRING import opml subscriptions
+Abonnements im OPML-Format importieren
+---STRINGEND
+
+---STRING keep removed items
+Aus dem Feed gelöschte Einträge lokal beibehalten
+---STRINGEND
+
+---STRING latest fetch %s
+Zuletzt abgerufen: %s
+---STRINGEND
+
+---STRING latest item from %s
+Der neueste Eintrag ist vom %s
+---STRINGEND
+
+---STRING local item
+Lokale Kopie des Eintrags
+---STRINGEND
+
+---STRING manage feeds
+Feeds verwalten
+---STRINGEND
+
+---STRING manage feeds of %s
+Feeds des Ordners "%s" verwalten
+---STRINGEND
+
+---STRING n/a
+n/v
+---STRINGEND
+
+---STRING net.nemein.rss
+RSS und Atom News-Aggregator
+---STRINGEND
+
+---STRING no items found in feed
+Keine Einträge im Feed gefunden
+---STRINGEND
+
+---STRING opml file
+OPML-Datei
+---STRINGEND
+
+---STRING refresh all feeds
+All Feeds aktualisieren
+---STRINGEND
+
+---STRING refresh feed
+Feed aktualisieren
+---STRINGEND
+
+---STRING remote item
+Eintrag im Feed
+---STRINGEND
+
+---STRING rss_count
+Anzahl der Artikel, die in rss.xml gelistet werden sollen
+---STRINGEND
+
+---STRING rss_description
+Beschreibung
+---STRINGEND
+
+---STRING rss_enable
+RSS-Export aktivieren (stellt die URLs rss.xml und rss/$anzahl.xml bereit)
+---STRINGEND
+
+---STRING rss_language
+Sprache
+---STRINGEND
+
+---STRING rss_title
+Titel des RSS-Feeds (keine Eingabe verwendet den Titel des Ordners als Standardwert)
+---STRINGEND
+
+---STRING rss_webmaster
+E-Mail-Adresse des Webmasters
+---STRINGEND
+
+---STRING rss output settings
+Einstellungen für die RSS-Ausgabe
+---STRINGEND
+
+---STRING subscribe feeds
+Neue Feeds abonnieren
+---STRINGEND
+
+---STRING subscribe feeds for %s
+Feeds für Ordner "%s" abonnieren
+---STRINGEND
+
+---STRING untitled
+Unbenannt
+---STRINGEND
+

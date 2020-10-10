@@ -1,0 +1,19 @@
+---# MidCOM String Database
+---VERSION 2.1.0
+---LANGUAGE da
+
+---STRING add new feed
+Tilføj ny nyhedskilde
+---STRINGEND
+
+---STRING feed title
+Kildetitel
+---STRINGEND
+
+---STRING feed url
+URL for kilde
+---STRINGEND
+
+---STRING net.nemein.rss
+RSS news aggregator
+---STRINGEND
