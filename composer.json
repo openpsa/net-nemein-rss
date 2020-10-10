@@ -1,0 +1,25 @@
+{
+    "name": "openpsa/net-nemein-rss",
+    "type": "midcom-package",
+    "description": "Aggregator that supports populating news items from remote RSS and Atom sources.",
+    "keywords": ["midcom", "rss", "atom"],
+    "homepage": "https://openpsa2.org",
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Andreas Flack",
+            "email": "flack@contentcontrol-berlin.de",
+            "homepage": "http://www.contentcontrol-berlin.de/"
+        }
+    ],
+    "require": {
+        "openpsa/midcom-core": "dev-main",
+        "openpsa/net-nemein-tag": "dev-main",
+        "openpsa/universalfeedcreator": "^1.8.2"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
