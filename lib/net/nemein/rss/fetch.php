@@ -7,6 +7,7 @@
  */
 
 use Symfony\Component\DomCrawler\Crawler;
+use midcom\dba\softdelete;
 
 /**
  * RSS and Atom feed fetching class. Caches the fetched items as articles
@@ -139,8 +140,6 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
 
     /**
      * Imports a feed item into the database
-     *
-     * @param net_nemein_rss_parser_item $item Feed item as provided by SimplePie
      */
     public function import_item(net_nemein_rss_parser_item $item) : ?string
     {
@@ -351,7 +350,7 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
             $item->delete();
         }
 
-        midcom_baseclasses_core_dbobject::purge($purge_guids, 'midgard_article');
+        softdelete::purge($purge_guids, 'midgard_article');
     }
 
     /**
@@ -362,10 +361,8 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
     {
         $author_info = [];
 
-        $author = $item->get_author();
-
         // First try dig up any information about the author possible
-        if (!empty($author)) {
+        if ($author = $item->get_author()) {
             $name = $author->get_name();
             $email = $author->get_email();
             if (!empty($name)) {
@@ -410,9 +407,6 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
     /**
      * Parses author formats used by different feed standards and
      * tries to match to persons in database.
-     *
-     * @param net_nemein_rss_parser_item $item Feed item as provided by SimplePie
-     * @return midcom_db_person Person object matched, or null
      */
     public function match_item_author(net_nemein_rss_parser_item $item) : ?midcom_db_person
     {
