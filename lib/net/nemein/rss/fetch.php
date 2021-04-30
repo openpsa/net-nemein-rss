@@ -23,7 +23,7 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
     public $lasterror;
 
     /**
-     * The feed object we're fetching
+     * @var net_nemein_rss_feed_dba
      */
     private $_feed;
 
@@ -45,8 +45,7 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
     public function __construct(net_nemein_rss_feed_dba $feed)
     {
         $this->_feed = $feed;
-
-        $this->_node = new midcom_db_topic($this->_feed->node);
+        $this->_node = new midcom_db_topic($feed->node);
 
         parent::__construct();
     }
