@@ -15,7 +15,7 @@ use midcom\dba\softdelete;
  *
  * @package net.nemein.rss
  */
-class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
+class net_nemein_rss_fetch
 {
     /**
      * The last error reported by SimplePie, if any
@@ -46,8 +46,6 @@ class net_nemein_rss_fetch extends midcom_baseclasses_components_purecode
     {
         $this->_feed = $feed;
         $this->_node = new midcom_db_topic($feed->node);
-
-        parent::__construct();
     }
 
     public static function get_parser() : SimplePie
